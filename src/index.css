@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.customButton {
+    color: white;
+    padding: 4px;
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+}
+
+.customButton:hover {
+    background-color: #ff3e00;
+    color: white;
+}
+/* 
+.scroller {
+    border: 5px solid #0186fa;
+    max-width: 600px;
+    overflow: hidden;
+    --webkit-mask: linear-gradient(
+        90deg,
+        transparent,
+        white 20%,
+        white 80%,
+        transparent
+    );
+    mask: linear-gradient(
+        90deg,
+        transparent,
+        white 20%,
+        white 80%,
+        transparent
+    );
+}
+.scrollerPartners {
+    border: 5px solid #0186fa;
+    max-width: 600px;
+    overflow: hidden;
+    --webkit-mask: linear-gradient(
+        90deg,
+        transparent,
+        white 20%,
+        white 80%,
+        transparent
+    );
+    mask: linear-gradient(
+        90deg,
+        transparent,
+        white 20%,
+        white 80%,
+        transparent
+    );
+}
+.scroller_inner {
+    padding-block: 2rem;
+    width: max-content;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1.2rem;
+    animation: scroll 20s linear infinite;
+    -webkit-animation: scroll 20s linear infinite;
+}
+.scrollerPartners_inner {
+    padding-block: 2rem;
+    width: max-content;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5rem;
+    animation: scrolll 10s linear infinite;
+    -webkit-animation: scrolll 10s linear infinite;
+}
+@media screen and (max-width: 350px) {
+    .scroller {
+        max-width: 90vw;
+    }
+}
+@keyframes scroll {
+    to {
+        transform: translate(calc(-50% - 0.5rem));
+        -webkit-transform: translate(calc(-50% - 0.5rem));
+        -moz-transform: translate(calc(-50% - 0.5rem));
+        -ms-transform: translate(calc(-50% - 0.5rem));
+        -o-transform: translate(calc(-50% - 0.5rem));
+    }
+}
+@keyframes scrolll {
+    to {
+        transform: translate(calc(50% + 0.4rem));
+        -webkit-transform:;
+        -moz-transform:;
+        -ms-transform:;
+        -o-transform:;
+}
+} */
