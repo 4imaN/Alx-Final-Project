@@ -12,7 +12,7 @@ import CreateInstructor from "./page/createInstructor/createInstructor";
 import Student from "./page/CreateStudent/Student";
 import GetClass from "./page/GetClass/GetClass";
 import LinkInstructor from "./page/LinkInstructor/LinkInstructor.tsx";
-import CreateClass from "./page/CreateClass/CreateClass.tsx";  // Ensure correct import path
+import CreateClass from "./page/CreateClass/CreateClass.tsx";  
 
 const router = createBrowserRouter([
     {
@@ -44,7 +44,7 @@ const router = createBrowserRouter([
         element: <Student />,
     },
     {
-        path: "/GetClass",  // Correcting duplicate route name
+        path: "/GetClass",  
         element: <GetClass />,
     },
     {
